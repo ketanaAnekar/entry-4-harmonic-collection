@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    color: wheat;
+}
+
+div{
+    font-family: "jeanne-moderno", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+}
+#ariel{
+    font-family:Arial, sans-serif, italic;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+
+}
+#distance{
+    position: absolute;
+    top: 90px;
+    left: 490px
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ff0800;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    width: 400px; height: 500px
+  }
+  
+  .text {
+    color: white;
+    font-family: "stevie-sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }  
+#position0{
+    position: relative;
+    top:80px
+}
+#position{
+    position: relative;
+    left: 550px;
+    bottom: 420px
+}
+#position2{
+    position: absolute;
+    left:1100px;
+    top:229px;
+}
